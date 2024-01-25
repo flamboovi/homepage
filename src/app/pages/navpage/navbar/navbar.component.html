@@ -1,0 +1,20 @@
+<nav class="p-3 bg-transparent">
+    <!-- <img src="../../../assets/hamburger.png"  class="h-16    w-10"> -->
+    <div class="ml-10 mt-2 flex">
+       <div class="size-10 mt-3 mr-7">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+       </div>
+    <img src="../../../assets/logo.png" class="h-14">
+    <ul class="flex text-white rounded-full ml-6  text-base pr-2" style="background-color: rgba(255, 255, 255, 0.5);">
+        <li *ngFor="let item of items" class="ml-2 pl-6 pr-6 pt-2 mt-2 mb-2 hover:rounded-full hover:bg-white  hover:text-red-600 text-nowrap">
+            {{item}}
+        </li>
+    </ul>
+    <div class="ml-[9%] mt-2">
+        <button class="bg-white text-red-600 px-7 py-2 rounded-3xl">Signup</button>
+    <button class="bg-none  text-white px-7 py-2 rounded-3xl ml-3" style="border: 1px solid white;">Signin</button>
+    </div>
+    </div>
+</nav>

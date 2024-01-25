@@ -1,0 +1,15 @@
+<div class="mt-5 mb-3">
+    <div class="text-center text-black text-5xl font-bold" style="font-family: 'Jua', sans-serif;">View all cities</div>
+    <div class="">
+        <ng-container *ngFor="let data of datas">
+            <div class="flex">
+            <ng-container *ngFor="let data2 of data">
+                <div class="text-black text-base ml-[10%] text-nowrap mt-[3%] w-[15%]"  >
+                    {{data2}}
+                </div>
+
+            </ng-container>
+        </div>
+        </ng-container>
+    </div>
+</div>
